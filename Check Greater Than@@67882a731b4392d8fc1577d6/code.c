@@ -4,7 +4,7 @@ int main() {
     int a;
     int b;
 
-    if (a>b){
+    if (int a > int b){
         printf("True");
     }
     else{
