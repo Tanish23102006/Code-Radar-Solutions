@@ -6,7 +6,7 @@ int main() {
     int b;
     int c;
 
-    scanf("%d %d %d", &a,&b, &c);
+    scanf("%f %f %f", &a,&b, &c);
     float avg=(a+b+c)/3;
     printf("Average: %0.2f",avg);
     return 0;
