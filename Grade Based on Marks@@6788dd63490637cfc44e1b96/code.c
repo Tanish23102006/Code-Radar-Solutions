@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &x);
 
     if(x>=90){
-        printf("A")
+        printf("A");
     }
     return 0;
 }
