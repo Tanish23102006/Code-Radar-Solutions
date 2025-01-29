@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[100];
+    char str;
     scanf("%c",&str);
 
     if (str>='a' || str<='z' || str>='A' || str<='Z'){
