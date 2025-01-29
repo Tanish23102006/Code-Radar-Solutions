@@ -1,16 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    char a;
-    scanf("%c",&a);
-    if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
-        printf("Vowel");
+    char str[100];
+    scanf("%c",&str);
+
+    if (str>='a' || str<='z' || str>='A' || str<='Z'){
+        if(str=='a' || str=='e' || str=='i' || str=='o' || str=='u' || str=='A' || str=='E' || str=='I' || str=='O' || str=='U'){
+            printf("Vowel");
+        }
+        else{
+            printf("Consonant");
+        }
     }
-    // else if(a=='1' || a=='2' || a=='3' || a=='4' || a=='5' || a=='6' || a=='7' || a=='8' || a=='9'){
-    //     printf("Digit")
-    // }
+    else if(str>=0 && str<=9){
+        printf("Digit");
+    }
     else{
-        printf("Consonant");
+        printf("Special Character");
     }
     return 0;
 }
