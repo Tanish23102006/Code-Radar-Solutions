@@ -6,16 +6,16 @@ int main() {
     scanf("%lf %lf %c",&a,&b,&c);
     
     if (c=='+'){
-        printf("%lf",a+b);
+        printf("%d",a+b);
     }   
     else if (c=='-'){
-        printf("%lf",a-b);
+        printf("%d",a-b);
     }
     else if (c=='*'){
-        printf("%lf",a*b);
+        printf("%d",a*b);
     }
     else if (c=='/'){
-        printf("%lf",a/b);
+        printf("%d",a/b);
     }
     else{
         printf("error");
