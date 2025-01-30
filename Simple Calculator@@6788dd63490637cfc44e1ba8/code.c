@@ -6,23 +6,20 @@ int main() {
     scanf("%d %d",&a,&b);
     scanf("%c",&c);
     
-    switch(c){
-        case '+':
+    if (c=='+'){
         printf("%d",a+b);
-        break;
-
-        case '-':
+    }   
+    else if(c=='-'){
         printf("%d",a-b);
-        break;
-
-        case '*':
-        printf("%d",a*b);
-        break;
-
-        case '/':
-        printf("%d",a/b);
-        break;
     }
-    
+    else if(c=='*'){
+        printf("%d",a*b);
+    }
+    else if(c=='/'){
+        printf("%d",a/b);
+    }
+    else{
+        printf("error");
+    }
     return 0;
 }
