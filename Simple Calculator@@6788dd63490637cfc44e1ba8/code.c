@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     double a,b;
     int result;
@@ -23,7 +22,7 @@ int main() {
         printf("%d",result);
     }
     else{
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
