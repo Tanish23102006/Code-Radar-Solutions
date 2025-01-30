@@ -2,6 +2,7 @@
 
 int main() {
     double a,b;
+    int result;
     char c;
     scanf("%lf %lf %c",&a,&b,&c);
     
