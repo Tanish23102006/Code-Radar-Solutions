@@ -1,26 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    double a,b;
+    int a,b;
     char c;
     scanf("%lf %lf",&a,&b);
     scanf("%c",&c);
     
     switch(c){
         case '+':
-        printf("%.2lf",a+b);
+        printf("%f",a+b);
         break;
 
         case '-':
-        printf("%.2lf",a-b);
+        printf("%f",a-b);
         break;
 
         case '*':
-        printf("%.2lf",a*b);
+        printf("%f",a*b);
         break;
 
         case '/':
-        printf("%.2lf",a/b);
+        printf("%f",a/b);
         break;
     }
     
