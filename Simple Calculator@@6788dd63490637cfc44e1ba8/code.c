@@ -9,19 +9,19 @@ int main() {
     switch(c){
         case '+':
         printf("%.2lf",a+b);
-        break
+        break;
 
         case '-':
         printf("%.2lf",a-b);
-        break
+        break;
 
         case '*':
         printf("%.2lf",a*b);
-        break
+        break;
 
         case '/':
         printf("%.2lf",a/b);
-        break
+        break;
     }
     
     return 0;
