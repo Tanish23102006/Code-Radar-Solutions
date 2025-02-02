@@ -3,8 +3,9 @@
 int main() {
     int a,b;
     int count = 0;
-    
-    scanf("%d %d",&a,&b);
+
+    scanf("%d",&a);
+    scanf("%d",&b);
     int num[a];
 
     for (int i = 0; i < a; i++){
