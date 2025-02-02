@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < a; i++){
         scanf("%d",num[i]);
 
-        if(num[i] == b){
+        if(num[i] == int b){
             count = count + 1;
         }
     }
