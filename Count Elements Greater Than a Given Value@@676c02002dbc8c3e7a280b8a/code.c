@@ -13,6 +13,9 @@ int main() {
         if (num[i] > n){
             count = count + 1;
         }
+        else{
+            continue;
+        }
     }
     printf("%d",count);
     return 0;
