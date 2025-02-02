@@ -8,7 +8,7 @@ int main() {
 
     scanf("%d %d",&a,&n);
 
-    for (int i = 1; i <= a; i++){
+    for (int i = 0; i < a; i++){
         scanf("%d",&num[i]);
         if (num[i] > n){
             count = count + 1;
