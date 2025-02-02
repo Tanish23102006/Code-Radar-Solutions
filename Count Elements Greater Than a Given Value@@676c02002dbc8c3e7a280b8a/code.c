@@ -11,7 +11,7 @@ int main() {
     for (int i = 1; i <= a; i++){
         scanf("%d",&num[i]);
         if (num[i] > n){
-            count++;
+            count = count + 1;
         }
     }
     printf("%d",count);
