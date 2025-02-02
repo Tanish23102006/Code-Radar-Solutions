@@ -10,10 +10,10 @@ int main() {
     for(int i = 0; i<a; i++){
         scanf("%d",&arr[i]);
         if(arr[i]%2==0){
-            even++;
+            even = even + 1;
         }
         else{
-            odd++;
+            odd = odd + 1;
         }
     }
     printf("%d %d",even,odd);
