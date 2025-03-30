@@ -5,6 +5,7 @@ int fact(int i){
     }
     else if(i < 0){
         printf("Invalid Range");
+        return 0;
     }
     return i * fact(i-1);
 }
