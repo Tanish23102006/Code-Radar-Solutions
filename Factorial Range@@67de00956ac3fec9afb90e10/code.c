@@ -1,7 +1,10 @@
 // Your code here...
 int fact(int i){
-    if(i==0 || i==1 || i < 0){
+    if(i==0 || i==1){
         return 1;
+    }
+    else if(i < 0){
+        printf("Invalid Range");
     }
     return i * fact(i-1);
 }
