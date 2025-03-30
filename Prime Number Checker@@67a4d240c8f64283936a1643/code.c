@@ -1,5 +1,5 @@
 // Your code here...
-// int isPrime(int n){
+int isPrime(int n){
 //     if(n <= 1){
 //         printf("0");
 //         return 0;
