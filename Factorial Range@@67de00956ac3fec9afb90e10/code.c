@@ -4,9 +4,9 @@ int factorialRange(int start, int end){
         printf("%d\n",fact(i));
     }
 }
-int fact(int n){
-    if(n==0 || n==i){
+int fact(int i){
+    if(i==0 || i==i){
         return 1;
     }
-    return n * fact(n-1);
+    return i * fact(i-1);
 }
